@@ -67,7 +67,7 @@ server.post('/',function (request,response) {
   
   intentMap.set('Default Welcome Intent', welcome);
   intentMap.set('Default Fallback Intent', fallback);
-  intentMap.set('addNumbers', add);
+  intentMap.set('add', add);
   
   agent.handleRequest(intentMap);
 });
